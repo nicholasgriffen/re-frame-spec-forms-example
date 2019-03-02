@@ -7,7 +7,8 @@
 
   :plugins [[lein-cljsbuild "1.1.5"]]
 
-  :jvm-opts ["--add-modules" "java.xml.bind"]
+  ; Java 9 compatability
+  ; :jvm-opts ["--add-modules" "java.xml.bind"]
 
   :min-lein-version "2.5.3"
 
